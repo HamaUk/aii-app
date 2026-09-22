@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nexus</string>
+    <string name="app_tagline">Local agentic harness</string>
+
+    <string name="nav_chats">Chats</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_providers">Providers</string>
+
+    <string name="action_send">Send</string>
+    <string name="action_stop">Stop generating</string>
+    <string name="action_attach">Attach</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_edit">Edit prompt</string>
+    <string name="action_share">Share</string>
+    <string name="action_branch">Branch response</string>
+    <string name="action_fetch_models">Fetch models</string>
+    <string name="action_test_connection">Test</string>
+
+    <string name="label_thinking">Thinking</string>
+    <string name="label_tool_call">Tool</string>
+    <string name="label_observation">Observation</string>
+    <string name="label_final_answer">Final answer</string>
+
+    <string name="cd_reasoning_tree">Reasoning steps</string>
+    <string name="cd_model_switcher">Switch model</string>
+    <string name="cd_attached_image">Attached image, tap to view</string>
+</resources>

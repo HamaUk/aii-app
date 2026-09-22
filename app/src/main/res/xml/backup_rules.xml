@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Auto-backup excludes the encrypted secret store. The Keystore key is device-bound and is never
+  backed up, so a restored ciphertext would be undecryptable - better to exclude it than to restore
+  a file that fails confusingly on first read.
+-->
+<full-backup-content>
+    <exclude domain="sharedpref" path="nexus_secrets.xml" />
+    <exclude domain="sharedpref" path="nexus_secrets.preferences_pb" />
+</full-backup-content>
